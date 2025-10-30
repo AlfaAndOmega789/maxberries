@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"maxberries/catalog_service/internal/config"
-	"maxberries/catalog_service/internal/infrastructure/postgres"
+	"maxberries/catalog_service/internal/infrastructure/database"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 	}
 	log.Println("Конфиг успешно загружен")
 
-	_, err = postgres.NewPostgresConnection(cfg)
+	_, err = database.NewPostgresConnection(cfg)
 	if err != nil {
 		log.Fatalf("Ошибка подключения к Postgres: %v", err)
 	}
