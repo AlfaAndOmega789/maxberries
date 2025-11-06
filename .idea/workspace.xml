@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ad8427f5-2fce-4fc3-886b-de1bc2539ddb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog_service/internal/domain/entity/category.go" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/internal/domain/entity/category.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog_service/internal/domain/entity/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/internal/domain/entity/product.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog_service/internal/domain/usecase/category_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/internal/domain/usecase/category_usecase.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog_service/internal/domain/usecase/product_usecase.go" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/internal/domain/usecase/product_usecase.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog_service/internal/infrastructure/database/postgres.go" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/internal/infrastructure/database/postgres.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog_service/migrations/20251030110807_create_products_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog_service/migrations/20251030110807_create_products_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/Projects/test",
+    "last_opened_file_path": "D:/project/maxberries",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
