@@ -7,9 +7,7 @@ RUN go mod download
 
 COPY . .
 
-ENV PATH=$PATH:/go/bin
-
-WORKDIR /app/catalog_service/cmd
+WORKDIR /app/cmd
 
 RUN go build -o main .
 
