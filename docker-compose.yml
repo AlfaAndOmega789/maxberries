@@ -1,3 +1,4 @@
+version: '3.9'
 
 services:
   postgres:
@@ -14,17 +15,17 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   catalog_service:
-      build:
-        context: ./catalog_service
-        dockerfile: Dockerfile
-      container_name: catalog_service_new
-      restart: always
-      env_file:
-        - .env
-      depends_on:
-        - postgres
-      ports:
-        - "8090:8090"
+    build:
+      context: ./catalog_service
+      dockerfile: Dockerfile
+    container_name: catalog_service_new
+    restart: always
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    ports:
+      - "8090:8090"
 
 volumes:
   postgres_data:
